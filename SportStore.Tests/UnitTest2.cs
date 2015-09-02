@@ -1,9 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SportsStore.Models;
+using SportsStore.WebUI.Entities;
 using System.Collections.Generic;
 using System.Linq;
 using Moq;
+using SportsStore.Domain.Entities;
+
+
 
 namespace SportsStore.Tests
 {

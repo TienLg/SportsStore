@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using SportsStore.Models;
+using SportsStore.WebUI.Entities;
+using SportsStore.Domain.Entities;
 
-namespace SportsStore.Controllers
+namespace SportsStore.WebUI.Controllers
 {
     public class HomeController : Controller
     {

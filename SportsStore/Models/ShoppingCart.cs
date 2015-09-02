@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using SportsStore.Domain.Entities;
 
-namespace SportsStore.Models
+
+namespace SportsStore.WebUI.Entities
 {
     public class ShoppingCart
     {

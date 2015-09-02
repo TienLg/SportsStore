@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SportsStore.Models
+namespace SportsStore.Domain.Entities
 {
     public class Product
     {

@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore", "SportsStore\SportsStore.csproj", "{5EA7DF4D-6AFE-4B42-A2DD-27F1A641E302}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore\SportsStore.WebUI.csproj", "{5EA7DF4D-6AFE-4B42-A2DD-27F1A641E302}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21} = {3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Tests", "SportStore.Tests\SportsStore.Tests.csproj", "{CE2CD654-FB1F-4214-AB9B-E83AFA1ABECD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportStore.Tests\SportsStore.UnitTests.csproj", "{CE2CD654-FB1F-4214-AB9B-E83AFA1ABECD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21} = {3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{CE2CD654-FB1F-4214-AB9B-E83AFA1ABECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2CD654-FB1F-4214-AB9B-E83AFA1ABECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE2CD654-FB1F-4214-AB9B-E83AFA1ABECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE9C57F-6CDA-4756-A8B1-B2A340E9BD21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
